@@ -13,6 +13,41 @@ class UserController extends Zend_Controller_Action
         // action body
     }
 
+    public function updateAction()
+    {
+        // action body
+    }
+
+    public function addaccountAction()
+    {
+        // action body
+    }
+
+    public function deleteaccountAction()
+    {
+        // action body
+    }
+
+    public function updateaccountAction()
+    {
+        // action body
+    }
+
+    public function listaccountsAction()
+    {
+        // action body
+    }
+
 
 }
+
+
+
+
+
+
+
+
+
+
 

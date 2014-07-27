@@ -14,15 +14,29 @@
         <controllerFile controllerName="Error"/>
         <controllerFile controllerName="Beacon">
           <actionMethod actionName="index"/>
+          <actionMethod actionName="add"/>
+          <actionMethod actionName="update"/>
+          <actionMethod actionName="delete"/>
         </controllerFile>
         <controllerFile controllerName="User">
           <actionMethod actionName="index"/>
+          <actionMethod actionName="update"/>
+          <actionMethod actionName="addaccount"/>
+          <actionMethod actionName="deleteaccount"/>
+          <actionMethod actionName="updateaccount"/>
+          <actionMethod actionName="listaccounts"/>
         </controllerFile>
         <controllerFile controllerName="Plan">
           <actionMethod actionName="index"/>
+          <actionMethod actionName="add"/>
+          <actionMethod actionName="delete"/>
+          <actionMethod actionName="update"/>
         </controllerFile>
         <controllerFile controllerName="Promotion">
           <actionMethod actionName="index"/>
+          <actionMethod actionName="add"/>
+          <actionMethod actionName="delete"/>
+          <actionMethod actionName="update"/>
         </controllerFile>
       </controllersDirectory>
       <formsDirectory enabled="false"/>
@@ -52,6 +66,48 @@
           </viewControllerScriptsDirectory>
           <viewControllerScriptsDirectory forControllerName="Promotion">
             <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Beacon">
+            <viewScriptFile forActionName="add"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Beacon">
+            <viewScriptFile forActionName="update"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Beacon">
+            <viewScriptFile forActionName="delete"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="User">
+            <viewScriptFile forActionName="update"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="User">
+            <viewScriptFile forActionName="addaccount"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="User">
+            <viewScriptFile forActionName="deleteaccount"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="User">
+            <viewScriptFile forActionName="updateaccount"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="User">
+            <viewScriptFile forActionName="listaccounts"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Plan">
+            <viewScriptFile forActionName="add"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Plan">
+            <viewScriptFile forActionName="delete"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Plan">
+            <viewScriptFile forActionName="update"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Promotion">
+            <viewScriptFile forActionName="add"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Promotion">
+            <viewScriptFile forActionName="delete"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Promotion">
+            <viewScriptFile forActionName="update"/>
           </viewControllerScriptsDirectory>
         </viewScriptsDirectory>
         <viewHelpersDirectory/>

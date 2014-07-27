@@ -13,6 +13,27 @@ class BeaconController extends Zend_Controller_Action
         // action body
     }
 
+    public function addAction()
+    {
+        // action body
+    }
+
+    public function updateAction()
+    {
+        // action body
+    }
+
+    public function deleteAction()
+    {
+        // action body
+    }
+
 
 }
+
+
+
+
+
+
 
